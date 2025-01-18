@@ -1,13 +1,14 @@
-import { useState } from 'preact/hooks'
-import preactLogo from './assets/preact.svg'
-import viteLogo from '/vite.svg'
-import './app.css'
+import { useState } from "preact/hooks";
+import preactLogo from "./assets/preact.svg";
+import viteLogo from "/vite.svg";
+import "./app.css";
 
 export function App() {
-  const [count, setCount] = useState(0)
+  const [count, setCount] = useState(0);
 
   return (
     <>
+      testing demo application let's see
       <div>
         <a href="https://vitejs.dev" target="_blank">
           <img src={viteLogo} class="logo" alt="Vite logo" />
@@ -26,7 +27,7 @@ export function App() {
         </p>
       </div>
       <p>
-        Check out{' '}
+        Check out{" "}
         <a
           href="https://preactjs.com/guide/v10/getting-started#create-a-vite-powered-preact-app"
           target="_blank"
@@ -39,5 +40,5 @@ export function App() {
         Click on the Vite and Preact logos to learn more
       </p>
     </>
-  )
+  );
 }
